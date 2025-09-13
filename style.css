@@ -1,0 +1,132 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to right, #1e85df, #b7c0c9);
+}
+
+body .formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body .formulario h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+body .formulario input {
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  width: 50%;
+}
+
+body .formulario .botao {
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  width: 20%;
+  margin-top: 10px;
+  background-color: #1e85df;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+body .formulario .botao:hover {
+  background-color: #0d5bbf;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+#resultado .resultado-clima {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 70%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#resultado .resultado-clima .temperatura {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 10px;
+  color: #1e85df;
+  font-weight: bold;
+}
+
+#resultado .resultado-clima .card {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #555;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #0d5abf8b;
+}
+
+.infoAdicional {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.ticket {
+  display: none;
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(to right, #fbfcfc, #dae0e6);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 70%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nomeCidadeTicket {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: blue;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+.numeroTicket {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.bordaDesh {
+  border-top: 2px dashed black;
+}
+
+.minmax {
+  color: #1e85df;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.nomeCidade {
+  color: #1e85df;
+  text-align: center;
+  font-size: 40px;
+}
