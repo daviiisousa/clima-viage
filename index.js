@@ -29,7 +29,7 @@ async function buscarCClima(event) {
                 
                 <div class="infoAdicional">
                     <div class="card">
-                        <p><strong>Descrição:</strong> ${descricao}</p>
+                        <p><strong>Sensaçao:</strong> ${dados.main.feels_like}°C</p>
                     </div>
                     <div class="card">
                         <p><strong>Umidade:</strong> ${umidade}%</p>
