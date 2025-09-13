@@ -50,6 +50,7 @@ async function buscarCClima(event) {
         </span>
       <h2 >Ticket de ${cidade}</h2>
       </div>
+      <p class="paisTicket">${dados.sys.country}</p>
           <p class="numeroTicket">Nº do Ticket: ${Math.floor(
             Math.random() * 1000000
           )}</p>
