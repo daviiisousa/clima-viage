@@ -3,9 +3,9 @@ const form = document.getElementById("formulario");
 async function buscarCClima(event) {
   const cidade = document.getElementById("cidade").value;
 
-  const apiKey = "3da709d7b1481d16e6aece8ac4e010ee"; // 🔑 Substitua pela sua chave da API
+  const apiKey = "3da709d7b1481d16e6aece8ac4e010ee"; 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${apiKey}&units=metric&lang=pt_br`;
-  event.preventDefault(); // Impede o envio do formulário
+  event.preventDefault();
 
   try {
     const resposta = await fetch(url);
