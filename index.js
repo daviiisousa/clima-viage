@@ -1,5 +1,3 @@
-
-
 const form = document.getElementById("formulario");
 
 async function buscarCClima(event) {
@@ -55,14 +53,25 @@ async function buscarCClima(event) {
           <p class="numeroTicket">Nº do Ticket: ${Math.floor(
             Math.random() * 1000000
           )}</p>
-          <p><strong>A temperatura vai estar:</strong> ${temp}°C</p>
-          <p><strong>A temperatura mínima vai estar:</strong> ${dados.main.temp_min}°C</p>
-            <p><strong>A temperatura máxima vai estar:</strong> ${dados.main.temp_max}°C</p>
-            <p>Sua classe:1º Classe </p>
+          <div class="infoClimaTicket">
+            <div>
+                <p><strong>A temperatura vai estar:</strong> ${temp}°C</p>
+          <p><strong>A temperatura mínima vai estar:</strong> ${
+            dados.main.temp_min
+          }°C</p>
+            <p><strong>A temperatura máxima vai estar:</strong> ${
+              dados.main.temp_max
+            }°C</p>
+            </div>
+            <div>
+                <p><strong>Sua classe:</strong> 1º Classe</p>
           <p><strong>Descrição:</strong> ${descricao}</p>
           <p><strong>Umidade:</strong> ${umidade}%</p>
+            </div>
+          </div>
+
           <div class="bordaDesh"></div>
-          <a href="https://www.voegol.com.br/nh/?gclid=040f01d76adc13d090206912dca3b50f&gclsrc=3p.ds&msclkid=040f01d76adc13d090206912dca3b50f&utm_source=bing&utm_medium=cpc&utm_campaign=vnacp0006_alp_gol_varejo-nac_bing-search_conv_vend_cpc_pass_brand_termos-gol&utm_term=companhia%20aerea%20gol&utm_content=gosh02159al_cpc_rede-de-pesquisa_texto_companhia" target="_blank">Seu ticket foi gerado com sucesso!</a>
+          <a class="link-ticket" href="https://www.voegol.com.br/nh/?gclid=040f01d76adc13d090206912dca3b50f&gclsrc=3p.ds&msclkid=040f01d76adc13d090206912dca3b50f&utm_source=bing&utm_medium=cpc&utm_campaign=vnacp0006_alp_gol_varejo-nac_bing-search_conv_vend_cpc_pass_brand_termos-gol&utm_term=companhia%20aerea%20gol&utm_content=gosh02159al_cpc_rede-de-pesquisa_texto_companhia" target="_blank">Seu ticket foi gerado com sucesso!</a>
         `;
     } else {
       document.getElementById(

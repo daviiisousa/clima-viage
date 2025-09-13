@@ -101,10 +101,19 @@ body .formulario .botao:hover {
 }
 
 .numeroTicket {
+  text-align: center;
   font-size: 25px;
   font-weight: bold;
 }
 
+.link-ticket {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  color: #1e85df;
+}
 .bordaDesh {
   border-top: 2px dashed black;
 }
@@ -129,4 +138,10 @@ body .formulario .botao:hover {
   color: #1e85df;
   text-align: center;
   font-size: 40px;
+}
+
+.infoClimaTicket {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
