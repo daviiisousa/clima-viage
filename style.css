@@ -151,3 +151,10 @@ body .formulario .botao:hover {
   font-size: 20px;
   font-weight: bold;
 }
+
+.pais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

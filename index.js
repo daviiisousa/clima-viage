@@ -16,11 +16,15 @@ async function buscarCClima(event) {
       const temp = dados.main.temp;
       const descricao = dados.weather[0].description;
       const umidade = dados.main.humidity;
+      const F = (temp * 9) / 5 + 32;
 
       document.getElementById("resultado").innerHTML = `
            <div class="resultado-clima">
                 <h2 class="nomeCidade">Clima em ${cidade}</h2>
-                <p class="temperatura"> ${temp}°C</p>
+                <div class="pais">
+                  <p class="temperatura"> ${temp}°C</p>
+                  <p class="temperatura"> ${F.toFixed(2)}°F</p>
+                </div>
                 <div class="minmax">
                     <p>${dados.main.temp_max}°C</p>
                     <p>${dados.main.temp_min}°C</p>
@@ -29,7 +33,9 @@ async function buscarCClima(event) {
                 
                 <div class="infoAdicional">
                     <div class="card">
-                        <p><strong>Sensaçao:</strong> ${dados.main.feels_like}°C</p>
+                        <p><strong>Sensaçao:</strong> ${
+                          dados.main.feels_like
+                        }°C</p>
                     </div>
                     <div class="card">
                         <p><strong>Umidade:</strong> ${umidade}%</p>
