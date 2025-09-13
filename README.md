@@ -36,3 +36,8 @@ Este projeto é uma aplicação web simples para consultar o clima de qualquer c
 ## Licença
 
 Este projeto é apenas para fins educacionais.
+
+## Desenvolvedores
+
+- Domingos Muratori
+- Davi Sousa Alves
