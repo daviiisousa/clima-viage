@@ -11,7 +11,7 @@ Este projeto é uma aplicação web simples para consultar o clima de qualquer c
 
 ## Como usar
 
-1. Abra o arquivo `index.html` em seu navegador.
+1. Abra o arquivo `index.html` em seu navegador **ou acesse o site hospedado**: [https://daviiisousa.github.io/clima-viage/](https://daviiisousa.github.io/clima-viage/)
 2. Digite o nome da cidade desejada.
 3. Clique em "Buscar" para ver as informações do clima e gerar o ticket.
 
