@@ -1,4 +1,4 @@
-const chaveApi = "";
+
 
 const form = document.getElementById("formulario");
 

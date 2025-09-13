@@ -31,6 +31,7 @@ Este projeto é uma aplicação web simples para consultar o clima de qualquer c
 
 - Certifique-se de que a chave da API do OpenWeatherMap está correta em [`index.js`](index.js).
 - O projeto não requer backend, apenas um navegador moderno.
+- mas se quiser minha chave: 3da709d7b1481d16e6aece8ac4e010ee
 
 ## Licença
 
